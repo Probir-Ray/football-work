@@ -2,7 +2,7 @@
 ********** Responsive css style *******
 ***************************************/
 
-/* Teblet device css */
+/* Tablet device css */
 @media screen and (max-width: 992px) {
   /* Header style */
   .container,
@@ -21,8 +21,13 @@
   .all-player {
     grid-template-columns: repeat(2, 1fr);
   }
+  .hero-picture {
+    display: block;
+    text-align: center;
+  }
   .hero-picture img {
     margin-top: 75px;
+    width: 85%;
   }
 }
 
@@ -46,8 +51,13 @@
   .hero:hover > .hero-picture img {
     transform: scale(1) rotate(0);
   }
+  .hero-picture {
+    display: block;
+    text-align: center;
+  }
   .hero-picture img {
     margin-top: 50px;
+    width: 93%;
   }
 
   /* Player section style */

@@ -33,6 +33,10 @@ header {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+.hero-picture {
+  display: flex;
+  align-items: center;
+}
 .hero:hover > .hero-picture img {
   transform: scale(1.1) rotate(-359deg);
 }
