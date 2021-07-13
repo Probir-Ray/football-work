@@ -1,0 +1,58 @@
+/**************************************
+********** Responsive css style *******
+***************************************/
+
+/* Mobile device css */
+@media (max-width: 600px) {
+  /* Header style */
+  .container {
+    padding: 0;
+  }
+  .hero-area {
+    padding: 50px 60px 40px 25px;
+  }
+  .hero {
+    grid-template-columns: auto;
+  }
+  .hero-text h1 {
+    font-size: 36px;
+    line-height: 50px;
+    margin-top: 0px;
+  }
+  .hero:hover > .hero-picture img {
+    transform: scale(1) rotate(0);
+  }
+  .hero-picture img {
+    margin-top: 50px;
+  }
+}
+
+/* Player section style */
+.all-player {
+  grid-template-columns: auto;
+  justify-content: center;
+  margin-top: 47px;
+}
+.player {
+  width: 330px;
+  height: 465px;
+  padding: 15px;
+  margin-bottom: 24px;
+}
+
+.player-description h3.player-name {
+  margin-top: 2px;
+}
+
+/* Footer style */
+footer {
+  margin-top: 50px;
+}
+.logo img {
+  width: 65%;
+  height: auto;
+  margin-left: -10px;
+}
+.social-icon {
+  padding-bottom: 28px;
+}
