@@ -4,7 +4,76 @@
 /**************************************
 *********** Default css style *********
 ***************************************/
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 50px 141px 76px 115px;
+}
+img {
+  width: 100%;
+}
 
 /**************************************
-************* Hero Area style *********
+************* Header style ************
 ***************************************/
+header {
+  background-color: #2d25a0;
+  color: #fff;
+}
+.hero-area {
+  padding: 50px 141px 76px 115px;
+}
+.hero {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.hero-text h1 {
+  font-size: 64px;
+  line-height: 80px;
+  font-weight: 700;
+  margin-top: 60px;
+}
+.hero-text a.btn {
+  font-size: 16px;
+  background-color: #e02c6d;
+  width: 168px;
+  height: 44px;
+  padding: 10px 24px;
+  text-decoration: none;
+  color: #fff;
+}
+.hero-picture img {
+  width: 100%;
+}
+
+/**************************************
+********** Player section style *******
+***************************************/
+.all-player {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 30px;
+}
+.player {
+  padding: 15px 15px 12px 15px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  margin-bottom: 27px;
+}
+
+.player-description h3.player-name {
+  color: #18191f;
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-top: 6px;
+  margin-bottom: 0px;
+}
+.player-description p {
+  color: #6c6c6c;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 10px;
+}
