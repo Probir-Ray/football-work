@@ -2,8 +2,8 @@
 ********** Responsive css style *******
 ***************************************/
 
-/* Tablet device css */
-@media screen and (max-width: 992px) {
+/* Tablet devices css */
+@media screen and (min-width: 688px) and (max-width: 992px) {
   /* Header style */
   .container,
   .hero-area {
@@ -31,8 +31,8 @@
   }
 }
 
-/* Mobile device css */
-@media screen and (max-width: 680px) {
+/* Mobile devices css */
+@media screen and (max-width: 688px) {
   /* Header style */
   .container {
     padding: 0 15px;
@@ -73,6 +73,27 @@
 
   .player-description h3.player-name {
     margin-top: 2px;
+  }
+
+  /* news section style */
+  .news-section h2.section-heading {
+    padding-top: 2em;
+  }
+  .all-news {
+    grid-template-columns: repeat(1, 1fr);
+    padding-bottom: 3.5em;
+  }
+  .news {
+    width: 100%;
+    margin-bottom: 35px;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+  }
+  .news:last-child {
+    margin-left: 0%;
   }
 
   /* Footer style */
