@@ -29,6 +29,14 @@
     margin-top: 75px;
     width: 85%;
   }
+
+  /* Sponsors style */
+  .sponsor {
+    padding: 5em;
+  }
+  .sponsor img {
+    width: 100%;
+  }
 }
 
 /* Mobile devices css */
@@ -94,6 +102,11 @@
   }
   .news:last-child {
     margin-left: 0%;
+  }
+
+  /* Sponsors style */
+  .sponsors {
+    grid-template-columns: repeat(1, 1fr);
   }
 
   /* Footer style */

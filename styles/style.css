@@ -62,6 +62,10 @@ header {
 
 .hero-text a.btn {
   background-color: #e02c6d;
+  color: #fff;
+}
+.hero-text a.btn:hover {
+  padding-left: 25px;
 }
 .hero-picture img {
   width: 100%;
@@ -103,7 +107,7 @@ header {
   background-color: #f9f9f9;
   color: #333;
 }
-.news-section h2.section-heading {
+h2.section-heading {
   font-size: 175%;
 }
 .all-news {
@@ -139,11 +143,32 @@ a.btn:hover {
 }
 
 /**************************************
+******** Sponsors section style *******
+***************************************/
+.sponsors {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.sponsor {
+  border: 1px solid #ddd;
+  padding: 6.5em;
+  text-align: center;
+  background-color: deepskyblue;
+}
+.sponsor img {
+  width: 50%;
+}
+.sponsor img:hover {
+  transform: scale(1.35);
+}
+
+/**************************************
 ********** Footer section style *******
 ***************************************/
 footer {
   text-align: center;
-  margin-top: 98px;
+  margin-top: 70px;
 }
 .logo {
   width: 100%;
