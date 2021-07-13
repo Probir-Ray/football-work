@@ -24,7 +24,7 @@ header {
   color: #fff;
 }
 .hero-area {
-  padding: 50px 141px 76px 115px;
+  padding: 50px 130px 76px 115px;
 }
 .hero {
   display: grid;
@@ -76,4 +76,40 @@ header {
   font-size: 16px;
   line-height: 26px;
   margin-top: 10px;
+}
+
+/**************************************
+********** Footer section style *******
+***************************************/
+footer {
+  text-align: center;
+  margin-top: 98px;
+}
+.logo {
+  width: 100%;
+  height: auto;
+}
+.logo img {
+  width: 484px;
+  height: 110px;
+}
+.social-icon {
+  padding: 20px 0;
+}
+.social-icon a {
+  background-color: #e7e7e8;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  margin: 0 5px;
+}
+.social-icon a i {
+  padding: 7.5px 0;
+  color: #969bab;
+}
+footer p {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 auto 63px;
 }
