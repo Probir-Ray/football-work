@@ -4,8 +4,25 @@
 
 /* Teblet device css */
 @media screen and (max-width: 992px) {
+  /* Header style */
+  .container,
+  .hero-area {
+    padding: 50px 70px 76px;
+  }
+  .hero {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .hero-text h1 {
+    font-size: 48px;
+    line-height: 62px;
+    font-weight: 700;
+    margin-top: 30px;
+  }
   .all-player {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .hero-picture img {
+    margin-top: 75px;
   }
 }
 
@@ -13,7 +30,7 @@
 @media screen and (max-width: 680px) {
   /* Header style */
   .container {
-    padding: 0;
+    padding: 0 15px;
   }
   .hero-area {
     padding: 50px 60px 40px 25px;
@@ -40,8 +57,6 @@
     margin-top: 47px;
   }
   .player {
-    width: 330px;
-    height: 465px;
     padding: 15px;
     margin-bottom: 24px;
   }
