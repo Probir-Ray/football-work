@@ -18,6 +18,8 @@
     font-weight: 700;
     margin-top: 30px;
   }
+
+  /* Player section style */
   .all-player {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -28,6 +30,18 @@
   .hero-picture img {
     margin-top: 75px;
     width: 85%;
+  }
+
+  /* Highlights area style */
+  .highlights-area {
+    padding-top: 20px;
+    padding-bottom: 35px;
+  }
+  .highlights {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .text-content {
+    margin-bottom: 50px;
   }
 
   /* Sponsors style */
@@ -81,6 +95,21 @@
 
   .player-description h3.player-name {
     margin-top: 2px;
+  }
+
+  /* Highlights area style */
+  .highlights-area {
+    padding-top: 50px;
+  }
+  .highlights {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .text-content {
+    margin-bottom: 30px;
+  }
+  .text-content h2 {
+    font-size: 30px;
+    line-height: 40px;
   }
 
   /* news section style */

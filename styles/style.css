@@ -13,7 +13,7 @@ body {
   padding: 0;
 }
 .container {
-  padding: 50px 141px 76px 115px;
+  padding: 70px 90px 76px;
 }
 img {
   width: 100%;
@@ -40,7 +40,7 @@ header {
   color: #fff;
 }
 .hero-area {
-  padding: 50px 130px 76px 115px;
+  padding: 65px 90px 115px;
 }
 .hero {
   display: grid;
@@ -51,7 +51,7 @@ header {
   align-items: center;
 }
 .hero:hover > .hero-picture img {
-  transform: scale(1.1) rotate(-359deg);
+  transform: scale(1.1);
 }
 .hero-text h1 {
   font-size: 64px;
@@ -101,6 +101,44 @@ header {
 }
 
 /**************************************
+******* Highlights section style ******
+***************************************/
+.highlights-area {
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+.highlights {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-bottom: 65px;
+}
+
+.text-content h2 {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #0a0826;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.text-content p {
+  font-size: 16px;
+  color: #6c6c6c;
+  line-height: 28px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  padding-right: 10%;
+}
+.text-content a.btn {
+  background-color: #e02c6d;
+  color: #fff;
+}
+.text-content a.btn:hover {
+  background-color: #c94374;
+}
+
+/**************************************
 ********** News section style *********
 ***************************************/
 .news-section {
@@ -145,6 +183,9 @@ a.btn:hover {
 /**************************************
 ******** Sponsors section style *******
 ***************************************/
+.sponsors-section {
+  padding-bottom: 80px;
+}
 .sponsors {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
